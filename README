@@ -1,0 +1,14 @@
+You need:
+
+- an iPad >= 4.2.1
+- node.js
+- socket.io (server + client)
+
+Test URL (sorry the socket server won't be online all the time): http://cubiq.org/dropbox/sb/
+Lock the device rotation before trying. What you'll see is a red ball you can crontrol by tilting the iPad.
+If other users are connected you'll see them as grey balls. Communication happens thanks to websockets.
+
+*Not ready for production*, this is just a proof of concept.
+
+To-do:
+- would be nice to add collision detection between balls.
